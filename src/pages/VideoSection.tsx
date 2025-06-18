@@ -4,13 +4,13 @@ export default function VideoSection() {
             {/* Video 1 */}
             <div className="relative w-full md:w-[45%] aspect-video rounded-xl overflow-hidden shadow-lg">
                 <iframe
-                    src="https://player.cloudinary.com/embed/?cloud_name=dvpbfztc1&public_id=BoardView_nxawrz&profile=cld-default"
-                    width="640"
+                    src="https://player.cloudinary.com/embed/?cloud_name=dvpbfztc1&public_id=BoardView_nxawrz&profile=cld-adaptive-stream" width="640"
                     height="360"
                     style={{ height: 'auto', width: '100%', aspectRatio: '640/360' }}
                     allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
                     allowFullScreen
                 ></iframe>
+
                 {/* Optional overlay */}
                 <div className="absolute bottom-2 right-2 bg-white/70 backdrop-blur-md px-3 py-1 rounded-full shadow">
                     <span className="text-sm font-semibold text-gray-800">Board View</span>
@@ -19,14 +19,14 @@ export default function VideoSection() {
 
             {/* Video 2 */}
             <div className="relative w-full md:w-[45%] aspect-video rounded-xl overflow-hidden shadow-lg">
-                <video
-                    src="src/public/BoardDetail.mp4"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full h-full object-contain"
-                />
+                <iframe
+                    src="https://player.cloudinary.com/embed/?cloud_name=dvpbfztc1&public_id=Screen_Recording_2025-06-19_at_12.09.55_AM_tjh5cn&profile=cld-adaptive-stream"
+                    width="640"
+                    height="360"
+                    style={{ height: 'auto', width: '100%', aspectRatio: '640/360' }}
+                    allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
                 {/* Optional overlay */}
                 <div className="absolute bottom-2 right-2 bg-white/70 backdrop-blur-md px-3 py-1 rounded-full shadow">
                     <span className="text-sm font-semibold text-gray-800">Board Detail</span>
